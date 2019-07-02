@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+  <title>Train</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron bg-warning">
+      <h1>Anytime is train time!</h1>
+      <h3>Cho cho!!!</h3>
+    </div>
+  </div>
+  <div class="container hide">
+    <h3 class="text-warning">Current train schedule</h3>
+    <table class="table table-hover">
+      <tr>
+        <th>Train Name</th>
+        <td>Trenton Station</td>
+        <td>Oregon Trail</td>
+        <td>Midnight Carriage</td>
+      </tr>
+      <tr>
+        <th>Destination</th>
+        <td>Trenton</td>
+        <td>Salem, Oregon</td>
+        <td>Philadelphia</td>
+      </tr>
+      <tr>
+        <th>Frequency</th>
+        <td>25</td>
+        <td>3600</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <th>Next Arrival</th>
+        <td>05:35</td>
+        <td>01:39</td>
+        <td>05:35</td>
+      </tr>
+      <tr>
+        <th>Minutes Away</th>
+        <td>10</td>
+        <td>1154</td>
+        <td>10</td>
+      </tr>
+    </table>
+
+    <h3 class="text-warning">Add Time</h3>
+      <form action="">
+        <label for="name">Train Name: </label>
+        <input id="name" class="form-control" type="text"> <br>
+        <label for="destination">Destination: </label>
+        <input id="destination" class="form-control" type="text"> <br>
+        <label for="time">First train time: </label>
+        <input id="time" class="form-control" type="text"> <br>
+        <label for="frequency">Frequency: </label>
+        <input id="frequency" class="form-control" type="text"> <br>
+        <button id="submit" class="btn btn-lg btn-outline-warning" type="submit">Submit That</button>
+      </form>
+  </div>
+
+  
+
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
